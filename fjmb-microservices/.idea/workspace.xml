@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2eb8e526-7109-43b9-bd51-5d32b0cb0f36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../diagrams/diagrams.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docs/Development.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/mx/com/fjmb/amqp/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/amqp/src/main/java/mx/com/fjmb/amqp/RabbitMQMessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/mx/com/fjmb/apigw/ApiGWApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/mx/com/fjmb/clients/fraud/FraudCheckResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/mx/com/fjmb/clients/fraud/FraudClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/mx/com/fjmb/clients/notification/NotificationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/mx/com/fjmb/clients/notification/NotificationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/clients-default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/clients-docker.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/clients-kube.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/mx/com/fjmb/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/mx/com/fjmb/customer/CustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/mx/com/fjmb/customer/CustomerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/mx/com/fjmb/customer/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/mx/com/fjmb/customer/CustomerRegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/mx/com/fjmb/customer/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/mx/com/fjmb/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application-kube.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_postgres_init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/mx/com/fjmb/eurekaserver/EurekaServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/mx/com/fjmb/fraud/FraudApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/mx/com/fjmb/fraud/FraudCheckHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/mx/com/fjmb/fraud/FraudCheckHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/mx/com/fjmb/fraud/FraudCheckService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/java/mx/com/fjmb/fraud/FraudControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application-kube.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/mx/com/fjmb/notification/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/mx/com/fjmb/notification/NotificationApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/mx/com/fjmb/notification/NotificationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/mx/com/fjmb/notification/NotificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/mx/com/fjmb/notification/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/mx/com/fjmb/notification/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/java/mx/com/fjmb/notification/rabbitmq/NotificationConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application-docker.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application-kube.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-01-diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m03-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m04-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m05-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m06-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m08-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m08-p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m09-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m11-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m13-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m13-p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m15-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m15-p02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m16-p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../img/pic-m17-p01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="26P4UWQIrFMZqqXwdjDYXJ7wYkd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notification" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile com.google.cloud.tools:jib-maven-plugin:3.2.0:dockerBuild " />
+      <command value="mvn clean package -P build-docker-image" />
+      <command value="mvn jib:dockerBuild" />
+      <command value="mvn compile jib:build" />
+      <command value="mvn compile jib:dockerBuild " />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
+    <configuration name="ApiGWApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="apigw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.com.fjmb.apigw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mx.com.fjmb.apigw.ApiGWApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.com.fjmb.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mx.com.fjmb.customer.CustomerApplication" />
+      <option name="ACTIVE_PROFILES" value="default" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.com.fjmb.eurekaserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mx.com.fjmb.eurekaserver.EurekaServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FraudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="fraud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.com.fjmb.fraud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mx.com.fjmb.fraud.FraudApplication" />
+      <option name="ACTIVE_PROFILES" value="default" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="notification" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.com.fjmb.notification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="mx.com.fjmb.notification.NotificationApplication" />
+      <option name="ACTIVE_PROFILES" value="default" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ApiGWApplication" />
+      <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.FraudApplication" />
+      <item itemvalue="Spring Boot.NotificationApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NotificationApplication" />
+        <item itemvalue="Spring Boot.FraudApplication" />
+        <item itemvalue="Spring Boot.CustomerApplication" />
+        <item itemvalue="Spring Boot.ApiGWApplication" />
+        <item itemvalue="Spring Boot.EurekaServerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2eb8e526-7109-43b9-bd51-5d32b0cb0f36" name="Changes" comment="" />
+      <created>1647311905982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647311905982</updated>
+      <workItem from="1647311907352" duration="2120000" />
+      <workItem from="1647315961462" duration="20042000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
